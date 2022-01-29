@@ -1,0 +1,20 @@
+{
+  "text.autoconfig.mutekey.title": "Mutekey settings",
+  "text.autoconfig.mutekey.option.iconEnabled": "Show 'muted' icon",
+  "text.autoconfig.mutekey.option.iconXOffset": "Icon X Offset",
+  "text.autoconfig.mutekey.option.iconXOffset.@Tooltip": "Offset the 'muted' icon horizontally",
+  "text.autoconfig.mutekey.option.iconYOffset": "Icon Y Offset",
+  "text.autoconfig.mutekey.option.iconYOffset.@Tooltip": "Offset the 'muted' icon vertically",
+  "text.autoconfig.mutekey.option.showMuteMessage": "Display mute message",
+  "text.autoconfig.mutekey.option.showMuteMessage.@Tooltip": "Whether or not to display a message when the game gets muted",
+  "text.autoconfig.mutekey.option.muteMessageFormat": "Mute message",
+  "text.autoconfig.mutekey.option.muteMessageFormat.@Tooltip": "Message to display when game gets muted\nUsing the '%' symbol will insert the saved volume percentage.",
+  "text.autoconfig.mutekey.option.showUnmuteMessage": "Display unmute message",
+  "text.autoconfig.mutekey.option.showUnmuteMessage.@Tooltip": "Whether or not to display a message when the game gets unmuted",
+  "text.autoconfig.mutekey.option.unmuteMessageFormat": "Unmute message",
+  "text.autoconfig.mutekey.option.unmuteMessageFormat.@Tooltip": "Message to display when game gets unmuted\nUsing the '%' symbol will insert the saved volume percentage.",
+  "text.autoconfig.mutekey.option.autoMuteOnLostFocus": "Mute sounds in background",
+  "text.autoconfig.mutekey.option.autoMuteOnLostFocus.@Tooltip": "Automatically mute the game when in background\nDisabled this when using DynamicFPS",
+  "category.mutekey.keys": "Mutekey",
+  "key.mutekey.togglemute": "Toggle mute"
+}

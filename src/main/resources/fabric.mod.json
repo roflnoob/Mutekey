@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "mutekey",
+  "version": "${version}",
+  "name": "Mutekey",
+  "description": "A simple mod that adds a hotkey to toggle the in-game sound",
+  "authors": [
+    "rukukun"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/mutekey",
+    "issues": "https://www.curseforge.com/minecraft/mc-mods/mutekey/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/mutekey/mutekeylogo.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.rukukun.mutekey.Mutekey"
+    ],
+    "modmenu": [
+      "com.rukukun.mutekey.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "mutekey.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1",
+    "java": ">=17"
+  }
+}
